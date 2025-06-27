@@ -1,45 +1,72 @@
-# React + TypeScript + Vite
+# AI News Extension &nbsp; ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **A modern browser extension for AI-powered news aggregation, built with React, TypeScript, and Vite.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Development](#development)
+- [ESLint & Code Quality](#eslint--code-quality)
+- [Contributing](#contributing)
+- [License](#license)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- ⚡️ **Fast**: Powered by Vite for instant HMR and lightning-fast builds.
+- 🧠 **AI Integration**: Aggregates and summarizes news using AI.
+- 🛠️ **Type Safe**: Built with TypeScript for robust type safety.
+- 🧹 **Linted**: Pre-configured with ESLint for code quality.
+- 🌐 **Browser Extension**: Designed to run as a browser extension.
+- 🔌 **Pluggable**: Easily extendable and customizable.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/islamux/ai-news-extension.git
+   cd ai-news-extension
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## Development
+
+This project uses [Vite](https://vitejs.dev/) for development and build tooling, with [React](https://react.dev/) and [TypeScript](https://www.typescriptlang.org/).
+
+### Scripts
+
+- `npm run dev` – Start development server with HMR
+- `npm run build` – Build for production
+- `npm run lint` – Run ESLint
+
+---
+
+## ESLint & Code Quality
+
+The project is pre-configured with ESLint and recommended plugins for React and TypeScript.  
+You can expand the ESLint configuration for stricter rules and type-aware linting as shown below:
 
 ```js
 // eslint.config.js
@@ -51,10 +78,8 @@ export default tseslint.config([
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
-      // Other configs...
-      // Enable lint rules for React
+      ...tseslint.configs.recommendedTypeChecked,
       reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
       reactDom.configs.recommended,
     ],
     languageOptions: {
@@ -62,8 +87,23 @@ export default tseslint.config([
         project: ['./tsconfig.node.json', './tsconfig.app.json'],
         tsconfigRootDir: import.meta.dirname,
       },
-      // other options...
     },
   },
 ])
 ```
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests via [GitHub](https://github.com/islamux/ai-news-extension).
+
+---
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+---
+
+> © 2025 [islamux](https://github.com/islamux) – AI News
