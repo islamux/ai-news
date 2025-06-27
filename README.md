@@ -21,7 +21,7 @@
 - 🧠 **AI Integration**: Aggregates and summarizes news using AI.
 - 🛠️ **Type Safe**: Built with TypeScript for robust type safety.
 - 🧹 **Linted**: Pre-configured with ESLint for code quality.
-- 🌐 **Browser Extension**: Designed to run as a browser extension.
+- 🌐 **Cross-Platform**: Works seamlessly in modern browsers.
 - 🔌 **Pluggable**: Easily extendable and customizable.
 
 ---
@@ -30,8 +30,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/islamux/ai-news-extension.git
-   cd ai-news-extension
+   git clone https://github.com/islamux/ai-news.git
+   cd ai-news
    ```
 
 2. **Install dependencies**
