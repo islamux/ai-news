@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "A modern browser extension for AI-powered news aggregation.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -1,6 +1,6 @@
-# AI News Extension &nbsp; ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+# AI News &nbsp; ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-> **A modern browser extension for AI-powered news aggregation, built with React, TypeScript, and Vite.**
+> **AI News is a modern, AI-powered news aggregator built with React, TypeScript, and Vite.**
 
 ---
 

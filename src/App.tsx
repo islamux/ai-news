@@ -45,13 +45,16 @@ function App() {
   return (
     <div className="min-h-screen bg-dark-blue-900 text-gray-100 p-4">
       <motion.h1
-        className="text-5xl md:text-6xl font-extrabold text-center mb-12 tracking-tight text-accent-purple"
+        className="text-5xl md:text-6xl font-extrabold text-center mb-4 tracking-tight text-accent-purple"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        AI News Extension
+        AI News
       </motion.h1>
+      <p className="text-xl text-center mb-10 text-gray-400">
+        A modern, AI-powered news aggregator built with React, TypeScript, and Vite.
+      </p>
 
       <h2 className="text-3xl font-bold mb-8 text-center text-gray-100">Latest Headlines</h2>
 
